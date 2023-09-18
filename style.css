@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+body{
+   
+    height: 100vh;
+    width: 100%;
+    
+   background-image: url(bg.jpg.jpg);
+   background-size: cover;
+   background-position: center fixed;
+   background-repeat: no-repeat;
+}
+
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 60px;
+    /* margin: 2rem; */
+    background-color: transparent;
+    height: 50px;
+    align-items: center;
+    
+    
+   
+    
+}
+
+.logo img{
+    position: relative;
+    top: 30px;
+    display: flex;
+    width: 90px;
+    margin: 20px 50px;
+    border-radius: 50px;
+    
+
+}
+
+ul a{
+   font-size: 1.1em; 
+   text-decoration:none;
+   color:rgb(243, 245, 247);
+   padding-left: 4rem;
+}
+
+
+
+ul a:hover{
+   color: rgb(179, 59, 59);
+   /* text-decoration: underline blue 2px; */
+   position: relative;
+   top: 6px;
+   text-shadow: #daff08 15px;
+
+   
+    
+}
+
+
+.navigation .social{
+    display: flex;
+    background-color: transparent;
+    height: 30px;
+    width: 70px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    justify-content: space-between;
+    padding-left: 10;
+    cursor: pointer;
+}
+
+.social img{
+    width: 40px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-left: 30px;
+
+}
+
+.social .facebook:hover{
+    background-color: #0023ec;
+    
+}
+
+.social .insta:hover{
+    
+    background-color: rgb(108, 28, 115) ;
+    
+}
+
+
+
+
+.log-box{
+    position: absolute;
+    top: 250px;
+    left: 43%;
+    height: 450px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, .2);
+    display: flex;
+    border-radius: 20px;
+    justify-items: center;
+    align-items: center;
+    padding: 3px 10px;
+    border: 2px solid whitesmoke;
+
+}
+
+.log-box h4{
+    font-size: 2em;
+    position: relative;
+    left: 120px;
+    top: -120px;
+    color: #fff;
+    cursor: pointer;
+}
+
+input {
+    position: relative;
+    top: 40px;
+    left: -15px;
+    height: 40px;
+    width: 120%;
+    border-radius: 10px;
+    margin-bottom: 22px;
+    border-bottom: 2px solid #d92a2a;
+    padding-left: 20px;
+    font-weight: 500;
+    font-family: monospace;
+    
+}
+
+
+
+
+
+
+
+.log-in-item{
+    position:relative;
+    left: -50px;
+    top: -30px;
+    
+    
+
+}
+
+
+
+
+
+
+.forget-log{
+    position: absolute;
+    top: 300px;
+    right: 1em;
+    height: 100px;
+    
+    width: 22em;
+    background-color: transparent;
+
+    
+}
+
+
+.forget-log a{
+    text-decoration: none;
+    color: #fff;
+    justify-content: space-between;
+    
+    
+}
+
+.forget-log .sign-up{
+    position: relative;
+    left: 7em;
+    transition: .5s;
+}
+.forget-log .sign-up:hover{
+    color: rgb(40, 72, 190);
+}
+.forget-log .for-pass{
+    transition: .5s;
+}
+.forget-log .for-pass:hover{
+    color: rgb(63, 182, 139);
+
+}
+
+
+
+
+
+.forget-log .log-in-btn{
+    position: relative;
+    height: 39px;
+    width: 26em;
+    top: 30px;
+    border-radius: 10px;
+    background-color: rgb(18, 100, 100);
+    color: #fff;
+    font-size: 13.3px;
+    transition: .6s;
+}
+.forget-log .log-in-btn:hover{
+    background-color: rgb(29, 29, 147);
+    color: #d92a2a;
+}
